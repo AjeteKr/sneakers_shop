@@ -1,0 +1,29 @@
+
+
+body{
+    background: linear-gradient(to right, #fc9608 0%, #425af3 100%);
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 22px solid #ccc;
+    border-radius: 32px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
