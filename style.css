@@ -1,11 +1,12 @@
-
+html {
+    cursor: url("https://img.icons8.com/?size=32&id=0ddPOoMsRD8P&format=png&color=000000"), auto;
+}
 
 body{
     background: linear-gradient(to right, #fc9608 0%, #425af3 100%);
     font-family: "ZCOOL KuaiLe", sans-serif;
     font-weight: 400;
     font-style: normal;
-    cursor: pointer;
 }
 
 .box {
@@ -22,8 +23,66 @@ body{
 a {
     text-decoration: none;
     color: inherit;
+    cursor: url("https://img.icons8.com/?size=32&id=0DZVqi4HKP6A&format=png&color=000000"), auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products-section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 22px;
 }
 
 
+.hero-section {
+    background-image: url('images/hero-section.png');
+    color: #09057b;
+    padding: 12px;
+    height: 333px;
+}
 
+button {
+    cursor: url("https://img.icons8.com/?size=32&id=110919&format=png&color=000000"), auto;
+    color: rgb(5, 49, 243);
+    padding: 12px 22px;
+    border: 1px solid #577485;
+    border-radius: 12px;
+    font-size: medium;
+    margin-top: 152px;
+}
 
+.flex {
+    display: flex;
+    gap: 12px;
+}
+
+.flex img {
+    width: 255px;
+    height: 255px;
+}
+
+article {
+    margin-top: 22px;
+    position: relative;
+}
+
+article button {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
